@@ -1,6 +1,6 @@
 ---
 - name: Test Semaphore Playbook
-  hosts: prod_servers
+  hosts: all
   become: true
   tasks:
     - name: Debug Success
