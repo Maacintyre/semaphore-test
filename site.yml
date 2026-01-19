@@ -1,0 +1,8 @@
+---
+- name: Test Semaphore Playbook
+  hosts: prod_servers
+  become: true
+  tasks:
+    - name: Debug Success
+      ansible.builtin.debug:
+        msg: "This playbook succesfully ran."
